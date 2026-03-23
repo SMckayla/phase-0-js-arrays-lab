@@ -6,6 +6,12 @@ function logFirstProduct(){
     let first = products[0]
     console.log(first) // extra variable for no reason
 }
+// Function to add a new product
+function addProduct(productName){
+    let p = productName
+    products[products.length] = p   // instead of push
+}
+
 
 
 
