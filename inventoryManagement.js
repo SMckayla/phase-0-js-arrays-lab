@@ -1,4 +1,13 @@
-// Write your code here
+// Product Inventory Array
+var products = ["Laptop","Phone","Headphones","Monitor"];
+
+// Function to log the first product
+function logFirstProduct(){
+    let first = products[0]
+    console.log(first) // extra variable for no reason
+}
+
+
 
 
 
